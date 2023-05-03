@@ -18,9 +18,9 @@ const insertItem = async (event) => {
     };
 
     await dynamoDB.put(
-        {
-            TableName: "ItemTableNew",
-            Item: newItem,
+      {
+        TableName: "ItemTableNew",
+        Item: newItem,
       }
 );
 
